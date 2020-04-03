@@ -1,0 +1,248 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AcousticSceneGenerator	va_data_generators.py	/^class AcousticSceneGenerator(keras.utils.Sequence):$/;"	c
+ApplyEstimatorToSignal	core/utils.py	/^class ApplyEstimatorToSignal:$/;"	c
+CNN_VAD_Extractor	core/features.py	/^class CNN_VAD_Extractor(FrontEndFeatureExtraction):$/;"	c
+Enum	va_data_generators.py	/^from enum import Enum$/;"	i
+FeatureMode	va_data_generators.py	/^    class FeatureMode(Enum):$/;"	c	class:AcousticSceneGenerator
+FrontEndFeatureExtraction	core/features.py	/^class FrontEndFeatureExtraction:$/;"	c
+MelSpectrogramExtractor	core/features.py	/^class MelSpectrogramExtractor(FrontEndFeatureExtraction):$/;"	c
+PreFeatureGenerator	va_data_generators.py	/^class PreFeatureGenerator(keras.utils.Sequence):$/;"	c
+PreMixedAcousticScene	va_data_generators.py	/^class PreMixedAcousticScene(keras.utils.Sequence):$/;"	c
+PreMixedAcousticSceneWASPAA	va_data_generators.py	/^class PreMixedAcousticSceneWASPAA(keras.utils.Sequence):$/;"	c
+PreMixedAcousticSceneWASPAAH5	va_data_generators.py	/^class PreMixedAcousticSceneWASPAAH5(keras.utils.Sequence):$/;"	c
+T60_ERB_Extractor	core/features.py	/^class T60_ERB_Extractor(FrontEndFeatureExtraction):$/;"	c
+T60_Extractor_Mel32_Sec1	core/features.py	/^class T60_Extractor_Mel32_Sec1(FrontEndFeatureExtraction):$/;"	c
+T60_Extractor_Mel32_Sec2	core/features.py	/^class T60_Extractor_Mel32_Sec2(FrontEndFeatureExtraction):$/;"	c
+T60_Extractor_Mel32_Sec4	core/features.py	/^class T60_Extractor_Mel32_Sec4(FrontEndFeatureExtraction):$/;"	c
+T60_Extractor_Mel32_Sec4_1D	core/features.py	/^class T60_Extractor_Mel32_Sec4_1D(FrontEndFeatureExtraction):$/;"	c
+T60_Extractor_Mel32_Sec4_2ms	core/features.py	/^class T60_Extractor_Mel32_Sec4_2ms(FrontEndFeatureExtraction):$/;"	c
+T60_Extractor_Mel32_Sec4_4ms	core/features.py	/^class T60_Extractor_Mel32_Sec4_4ms(FrontEndFeatureExtraction):$/;"	c
+T60_Extractor_Mel32_Sec4_Basic	core/features.py	/^class T60_Extractor_Mel32_Sec4_Basic(FrontEndFeatureExtraction):$/;"	c
+T60_Extractor_Mel32_Sec4_Basic	train_subbands_T60_model.py	/^class T60_Extractor_Mel32_Sec4_Basic(va_features.FrontEndFeatureExtraction):$/;"	c
+TimeDomainExtractor	core/features.py	/^class TimeDomainExtractor(FrontEndFeatureExtraction):$/;"	c
+__del__	va_data_generators.py	/^    def __del__(self):$/;"	m	class:PreMixedAcousticSceneWASPAAH5	file:
+__generate_num_samples	va_data_generators.py	/^    def __generate_num_samples(self, num_samples):$/;"	m	class:AcousticSceneGenerator	file:
+__generate_speech_with_minimum_threshold	va_data_generators.py	/^    def __generate_speech_with_minimum_threshold(self, trim_len_samples, min_asl_percent=.2):$/;"	m	class:AcousticSceneGenerator	file:
+__get_noise	va_data_generators.py	/^    def __get_noise(self, file, segment_len_samples):$/;"	m	class:AcousticSceneGenerator	file:
+__getitem__	va_data_generators.py	/^    def __getitem__(self, index):$/;"	m	class:AcousticSceneGenerator	file:
+__getitem__	va_data_generators.py	/^    def __getitem__(self, index):$/;"	m	class:PreFeatureGenerator	file:
+__getitem__	va_data_generators.py	/^    def __getitem__(self, index):$/;"	m	class:PreMixedAcousticScene	file:
+__getitem__	va_data_generators.py	/^    def __getitem__(self, index):$/;"	m	class:PreMixedAcousticSceneWASPAA	file:
+__getitem__	va_data_generators.py	/^    def __getitem__(self, index):$/;"	m	class:PreMixedAcousticSceneWASPAAH5	file:
+__init__	core/features.py	/^    def __init__(self, sample_rate):$/;"	m	class:FrontEndFeatureExtraction
+__init__	core/features.py	/^    def __init__(self, sample_rate, length_seconds):$/;"	m	class:TimeDomainExtractor
+__init__	core/features.py	/^    def __init__(self, sample_rate, require_normalization):$/;"	m	class:CNN_VAD_Extractor
+__init__	core/features.py	/^    def __init__(self, sample_rate, require_normalization):$/;"	m	class:T60_Extractor_Mel32_Sec1
+__init__	core/features.py	/^    def __init__(self, sample_rate, require_normalization):$/;"	m	class:T60_Extractor_Mel32_Sec2
+__init__	core/features.py	/^    def __init__(self, sample_rate, require_normalization):$/;"	m	class:T60_Extractor_Mel32_Sec4
+__init__	core/features.py	/^    def __init__(self, sample_rate, require_normalization):$/;"	m	class:T60_Extractor_Mel32_Sec4_1D
+__init__	core/features.py	/^    def __init__(self, sample_rate, require_normalization):$/;"	m	class:T60_Extractor_Mel32_Sec4_2ms
+__init__	core/features.py	/^    def __init__(self, sample_rate, require_normalization):$/;"	m	class:T60_Extractor_Mel32_Sec4_4ms
+__init__	core/features.py	/^    def __init__(self, sample_rate, require_normalization):$/;"	m	class:T60_Extractor_Mel32_Sec4_Basic
+__init__	core/features.py	/^    def __init__(self, sample_rate, require_normalization, mels=32, fft_samples=256, hop_samples=128, input_seconds=4, assert_input_size=True):$/;"	m	class:MelSpectrogramExtractor
+__init__	core/features.py	/^    def __init__(self, sample_rate, require_normalization, output_len=1996):$/;"	m	class:T60_ERB_Extractor
+__init__	core/utils.py	/^    def __init__(self, signal,$/;"	m	class:ApplyEstimatorToSignal
+__init__	train_subbands_T60_model.py	/^    def __init__(self, sample_rate, require_normalization):$/;"	m	class:T60_Extractor_Mel32_Sec4_Basic
+__init__	va_data_generators.py	/^    def __init__(self,  dataset_path,$/;"	m	class:AcousticSceneGenerator
+__init__	va_data_generators.py	/^    def __init__(self, dataset, partition, label='modulation', normalize_band=None, batch_size=32, bands=None):$/;"	m	class:PreFeatureGenerator
+__init__	va_data_generators.py	/^    def __init__(self, dataset_h5_path, partition, feature_extractor, label='t60', batch_size=32):$/;"	m	class:PreMixedAcousticSceneWASPAAH5
+__init__	va_data_generators.py	/^    def __init__(self, dataset_path, feature_extractor, label='t60', fs=16000, batch_size=32, bands=None, stats_name="stats.csv"):$/;"	m	class:PreMixedAcousticSceneWASPAA
+__init__	va_data_generators.py	/^    def __init__(self, dataset_path, feature_extractor, stats_name="stats.csv", label='t60', fs=16000, batch_size=32):$/;"	m	class:PreMixedAcousticScene
+__len__	va_data_generators.py	/^    def __len__(self):$/;"	m	class:AcousticSceneGenerator	file:
+__len__	va_data_generators.py	/^    def __len__(self):$/;"	m	class:PreFeatureGenerator	file:
+__len__	va_data_generators.py	/^    def __len__(self):$/;"	m	class:PreMixedAcousticScene	file:
+__len__	va_data_generators.py	/^    def __len__(self):$/;"	m	class:PreMixedAcousticSceneWASPAA	file:
+__len__	va_data_generators.py	/^    def __len__(self):$/;"	m	class:PreMixedAcousticSceneWASPAAH5	file:
+_collect_samples	va_data_generators.py	/^    def _collect_samples(self, inds):$/;"	m	class:PreMixedAcousticSceneWASPAAH5
+abc	core/features.py	/^import abc$/;"	i
+argparse	test_subbands_T60_model_pre-feature.py	/^import argparse$/;"	i
+argparse	train_subbands_T60_model.py	/^import argparse$/;"	i
+argparse	train_subbands_T60_model_pre-feature.py	/^import argparse$/;"	i
+build_blind_t60_2018_4sec_subbands	train_subbands_T60_model.py	/^def build_blind_t60_2018_4sec_subbands(num_mels, mel_length, bandcnt=8, extra_layer=None):$/;"	f
+build_blind_t60_2018_4sec_subbands	train_subbands_T60_model_pre-feature.py	/^from train_subbands_T60_model import build_blind_t60_2018_4sec_subbands$/;"	i
+clear_normalization	core/features.py	/^    def clear_normalization(self):$/;"	m	class:CNN_VAD_Extractor
+clear_normalization	core/features.py	/^    def clear_normalization(self):$/;"	m	class:MelSpectrogramExtractor
+clear_normalization	core/features.py	/^    def clear_normalization(self):$/;"	m	class:T60_ERB_Extractor
+clear_normalization	core/features.py	/^    def clear_normalization(self):$/;"	m	class:T60_Extractor_Mel32_Sec1
+clear_normalization	core/features.py	/^    def clear_normalization(self):$/;"	m	class:T60_Extractor_Mel32_Sec2
+clear_normalization	core/features.py	/^    def clear_normalization(self):$/;"	m	class:T60_Extractor_Mel32_Sec4
+clear_normalization	core/features.py	/^    def clear_normalization(self):$/;"	m	class:T60_Extractor_Mel32_Sec4_1D
+clear_normalization	core/features.py	/^    def clear_normalization(self):$/;"	m	class:T60_Extractor_Mel32_Sec4_2ms
+clear_normalization	core/features.py	/^    def clear_normalization(self):$/;"	m	class:T60_Extractor_Mel32_Sec4_4ms
+clear_normalization	core/features.py	/^    def clear_normalization(self):$/;"	m	class:T60_Extractor_Mel32_Sec4_Basic
+clear_normalization	train_subbands_T60_model.py	/^    def clear_normalization(self):$/;"	m	class:T60_Extractor_Mel32_Sec4_Basic
+core	train_subbands_T60_model.py	/^import core.features as va_features$/;"	i
+core	train_subbands_T60_model.py	/^import core.utils as va_utils$/;"	i
+core	train_subbands_T60_model_pre-feature.py	/^import core.utils as va_utils$/;"	i
+core	va_data_generators.py	/^import core.features as va_features$/;"	i
+core	va_data_generators.py	/^import core.utils as va_utils$/;"	i
+csv	core/utils.py	/^import csv$/;"	i
+csv	test_subbands_T60_model_pre-feature.py	/^import csv$/;"	i
+csv	va_data_generators.py	/^import csv$/;"	i
+datetime	train_subbands_T60_model.py	/^from datetime import datetime$/;"	i
+datetime	train_subbands_T60_model_pre-feature.py	/^from datetime import datetime$/;"	i
+extract	core/features.py	/^    def extract(self, x):$/;"	m	class:CNN_VAD_Extractor
+extract	core/features.py	/^    def extract(self, x):$/;"	m	class:FrontEndFeatureExtraction
+extract	core/features.py	/^    def extract(self, x):$/;"	m	class:MelSpectrogramExtractor
+extract	core/features.py	/^    def extract(self, x):$/;"	m	class:T60_ERB_Extractor
+extract	core/features.py	/^    def extract(self, x):$/;"	m	class:T60_Extractor_Mel32_Sec1
+extract	core/features.py	/^    def extract(self, x):$/;"	m	class:T60_Extractor_Mel32_Sec2
+extract	core/features.py	/^    def extract(self, x):$/;"	m	class:T60_Extractor_Mel32_Sec4
+extract	core/features.py	/^    def extract(self, x):$/;"	m	class:T60_Extractor_Mel32_Sec4_1D
+extract	core/features.py	/^    def extract(self, x):$/;"	m	class:T60_Extractor_Mel32_Sec4_2ms
+extract	core/features.py	/^    def extract(self, x):$/;"	m	class:T60_Extractor_Mel32_Sec4_4ms
+extract	core/features.py	/^    def extract(self, x):$/;"	m	class:T60_Extractor_Mel32_Sec4_Basic
+extract	core/features.py	/^    def extract(self, x):$/;"	m	class:TimeDomainExtractor
+extract	train_subbands_T60_model.py	/^    def extract(self, x):$/;"	m	class:T60_Extractor_Mel32_Sec4_Basic
+find_shorter_sample	va_data_generators.py	/^    def find_shorter_sample(self, mix):$/;"	m	class:PreMixedAcousticScene
+find_shorter_sample	va_data_generators.py	/^    def find_shorter_sample(self, mix):$/;"	m	class:PreMixedAcousticSceneWASPAA
+fix_dims	core/utils.py	/^def fix_dims(x):$/;"	f
+generate_samples	va_data_generators.py	/^    def generate_samples(self, num_samples):$/;"	m	class:AcousticSceneGenerator
+generate_samples	va_data_generators.py	/^    def generate_samples(self, num_samples):$/;"	m	class:PreFeatureGenerator
+generate_samples	va_data_generators.py	/^    def generate_samples(self, num_samples):$/;"	m	class:PreMixedAcousticScene
+generate_samples	va_data_generators.py	/^    def generate_samples(self, num_samples):$/;"	m	class:PreMixedAcousticSceneWASPAA
+generate_samples	va_data_generators.py	/^    def generate_samples(self, num_samples):$/;"	m	class:PreMixedAcousticSceneWASPAAH5
+get_input_shape	core/features.py	/^    def get_input_shape(self):$/;"	m	class:CNN_VAD_Extractor
+get_input_shape	core/features.py	/^    def get_input_shape(self):$/;"	m	class:FrontEndFeatureExtraction
+get_input_shape	core/features.py	/^    def get_input_shape(self):$/;"	m	class:MelSpectrogramExtractor
+get_input_shape	core/features.py	/^    def get_input_shape(self):$/;"	m	class:T60_ERB_Extractor
+get_input_shape	core/features.py	/^    def get_input_shape(self):$/;"	m	class:T60_Extractor_Mel32_Sec1
+get_input_shape	core/features.py	/^    def get_input_shape(self):$/;"	m	class:T60_Extractor_Mel32_Sec2
+get_input_shape	core/features.py	/^    def get_input_shape(self):$/;"	m	class:T60_Extractor_Mel32_Sec4
+get_input_shape	core/features.py	/^    def get_input_shape(self):$/;"	m	class:T60_Extractor_Mel32_Sec4_1D
+get_input_shape	core/features.py	/^    def get_input_shape(self):$/;"	m	class:T60_Extractor_Mel32_Sec4_2ms
+get_input_shape	core/features.py	/^    def get_input_shape(self):$/;"	m	class:T60_Extractor_Mel32_Sec4_4ms
+get_input_shape	core/features.py	/^    def get_input_shape(self):$/;"	m	class:T60_Extractor_Mel32_Sec4_Basic
+get_input_shape	core/features.py	/^    def get_input_shape(self):$/;"	m	class:TimeDomainExtractor
+get_input_shape	train_subbands_T60_model.py	/^    def get_input_shape(self):$/;"	m	class:T60_Extractor_Mel32_Sec4_Basic
+get_mix50_csv_info	core/utils.py	/^def get_mix50_csv_info(csv_filepath):$/;"	f
+get_output_shape	core/features.py	/^    def get_output_shape(self):$/;"	m	class:CNN_VAD_Extractor
+get_output_shape	core/features.py	/^    def get_output_shape(self):$/;"	m	class:FrontEndFeatureExtraction
+get_output_shape	core/features.py	/^    def get_output_shape(self):$/;"	m	class:MelSpectrogramExtractor
+get_output_shape	core/features.py	/^    def get_output_shape(self):$/;"	m	class:T60_ERB_Extractor
+get_output_shape	core/features.py	/^    def get_output_shape(self):$/;"	m	class:T60_Extractor_Mel32_Sec1
+get_output_shape	core/features.py	/^    def get_output_shape(self):$/;"	m	class:T60_Extractor_Mel32_Sec2
+get_output_shape	core/features.py	/^    def get_output_shape(self):$/;"	m	class:T60_Extractor_Mel32_Sec4
+get_output_shape	core/features.py	/^    def get_output_shape(self):$/;"	m	class:T60_Extractor_Mel32_Sec4_1D
+get_output_shape	core/features.py	/^    def get_output_shape(self):$/;"	m	class:T60_Extractor_Mel32_Sec4_2ms
+get_output_shape	core/features.py	/^    def get_output_shape(self):$/;"	m	class:T60_Extractor_Mel32_Sec4_4ms
+get_output_shape	core/features.py	/^    def get_output_shape(self):$/;"	m	class:T60_Extractor_Mel32_Sec4_Basic
+get_output_shape	core/features.py	/^    def get_output_shape(self):$/;"	m	class:TimeDomainExtractor
+get_output_shape	train_subbands_T60_model.py	/^    def get_output_shape(self):$/;"	m	class:T60_Extractor_Mel32_Sec4_Basic
+get_recursive_wavfile_list	core/utils.py	/^def get_recursive_wavfile_list(folder, ext='wav'):$/;"	f
+get_sample_rate	core/features.py	/^    def get_sample_rate(self):$/;"	m	class:CNN_VAD_Extractor
+get_sample_rate	core/features.py	/^    def get_sample_rate(self):$/;"	m	class:FrontEndFeatureExtraction
+get_sample_rate	core/features.py	/^    def get_sample_rate(self):$/;"	m	class:MelSpectrogramExtractor
+get_sample_rate	core/features.py	/^    def get_sample_rate(self):$/;"	m	class:T60_ERB_Extractor
+get_sample_rate	core/features.py	/^    def get_sample_rate(self):$/;"	m	class:T60_Extractor_Mel32_Sec1
+get_sample_rate	core/features.py	/^    def get_sample_rate(self):$/;"	m	class:T60_Extractor_Mel32_Sec2
+get_sample_rate	core/features.py	/^    def get_sample_rate(self):$/;"	m	class:T60_Extractor_Mel32_Sec4
+get_sample_rate	core/features.py	/^    def get_sample_rate(self):$/;"	m	class:T60_Extractor_Mel32_Sec4_1D
+get_sample_rate	core/features.py	/^    def get_sample_rate(self):$/;"	m	class:T60_Extractor_Mel32_Sec4_2ms
+get_sample_rate	core/features.py	/^    def get_sample_rate(self):$/;"	m	class:T60_Extractor_Mel32_Sec4_4ms
+get_sample_rate	core/features.py	/^    def get_sample_rate(self):$/;"	m	class:T60_Extractor_Mel32_Sec4_Basic
+get_sample_rate	core/features.py	/^    def get_sample_rate(self):$/;"	m	class:TimeDomainExtractor
+get_sample_rate	train_subbands_T60_model.py	/^    def get_sample_rate(self):$/;"	m	class:T60_Extractor_Mel32_Sec4_Basic
+get_sampling_rate	va_data_generators.py	/^    def get_sampling_rate(self):$/;"	m	class:AcousticSceneGenerator
+get_time_seconds_per_frame	core/utils.py	/^    def get_time_seconds_per_frame(self):$/;"	m	class:ApplyEstimatorToSignal
+get_wav_file_list	va_data_generators.py	/^    def get_wav_file_list(folder):$/;"	m	class:AcousticSceneGenerator
+glob	core/utils.py	/^import glob$/;"	i
+glob	va_data_generators.py	/^import glob$/;"	i
+h5py	test_subbands_T60_model_pre-feature.py	/^import h5py$/;"	i
+h5py	train_subbands_T60_model_pre-feature.py	/^import h5py$/;"	i
+h5py	va_data_generators.py	/^import h5py$/;"	i
+kNoiseFeature	va_data_generators.py	/^        kNoiseFeature = 4$/;"	v	class:AcousticSceneGenerator.FeatureMode
+kRIRFeature	va_data_generators.py	/^        kRIRFeature = 5$/;"	v	class:AcousticSceneGenerator.FeatureMode
+kSNR	va_data_generators.py	/^        kSNR = 0  # TODO: make as mix feature$/;"	v	class:AcousticSceneGenerator.FeatureMode
+kSTI	va_data_generators.py	/^        kSTI = 1  # TODO: make as mix feature$/;"	v	class:AcousticSceneGenerator.FeatureMode
+kSpeechFeature	va_data_generators.py	/^        kSpeechFeature = 3$/;"	v	class:AcousticSceneGenerator.FeatureMode
+kVAD	va_data_generators.py	/^        kVAD = 2  # TODO: make a speech feature$/;"	v	class:AcousticSceneGenerator.FeatureMode
+keras	test_subbands_T60_model_pre-feature.py	/^from tensorflow import keras$/;"	i
+keras	train_subbands_T60_model.py	/^from tensorflow import keras$/;"	i
+keras	train_subbands_T60_model_pre-feature.py	/^from tensorflow import keras$/;"	i
+keras	va_data_generators.py	/^from tensorflow import keras$/;"	i
+librosa	core/features.py	/^import librosa$/;"	i
+librosa	core/utils.py	/^import librosa$/;"	i
+librosa	train_subbands_T60_model.py	/^import librosa$/;"	i
+main	test_subbands_T60_model_pre-feature.py	/^def main():$/;"	f
+main	train_subbands_T60_model.py	/^def main():$/;"	f
+main	train_subbands_T60_model_pre-feature.py	/^def main():$/;"	f
+make_folder	core/utils.py	/^def make_folder(folder):$/;"	f
+measure_length	core/utils.py	/^def measure_length(all_files):$/;"	f
+multiprocessing	train_subbands_T60_model.py	/^import multiprocessing$/;"	i
+np	core/features.py	/^import numpy as np$/;"	i
+np	core/utils.py	/^import numpy as np$/;"	i
+np	test_subbands_T60_model_pre-feature.py	/^import numpy as np$/;"	i
+np	train_subbands_T60_model.py	/^import numpy as np$/;"	i
+np	train_subbands_T60_model_pre-feature.py	/^import numpy as np$/;"	i
+np	va_data_generators.py	/^import numpy as np$/;"	i
+on_epoch_end	va_data_generators.py	/^    def on_epoch_end(self):$/;"	m	class:AcousticSceneGenerator
+on_epoch_end	va_data_generators.py	/^    def on_epoch_end(self):$/;"	m	class:PreFeatureGenerator
+on_epoch_end	va_data_generators.py	/^    def on_epoch_end(self):$/;"	m	class:PreMixedAcousticScene
+on_epoch_end	va_data_generators.py	/^    def on_epoch_end(self):$/;"	m	class:PreMixedAcousticSceneWASPAA
+on_epoch_end	va_data_generators.py	/^    def on_epoch_end(self):$/;"	m	class:PreMixedAcousticSceneWASPAAH5
+os	core/utils.py	/^import os$/;"	i
+os	test_subbands_T60_model_pre-feature.py	/^import os$/;"	i
+os	train_subbands_T60_model.py	/^import os$/;"	i
+os	train_subbands_T60_model_pre-feature.py	/^import os$/;"	i
+os	va_data_generators.py	/^import os$/;"	i
+read_normalization_from_file	core/features.py	/^    def read_normalization_from_file(self, filepath):$/;"	m	class:CNN_VAD_Extractor
+read_normalization_from_file	core/features.py	/^    def read_normalization_from_file(self, filepath):$/;"	m	class:MelSpectrogramExtractor
+read_normalization_from_file	core/features.py	/^    def read_normalization_from_file(self, filepath):$/;"	m	class:T60_ERB_Extractor
+read_normalization_from_file	core/features.py	/^    def read_normalization_from_file(self, filepath):$/;"	m	class:T60_Extractor_Mel32_Sec1
+read_normalization_from_file	core/features.py	/^    def read_normalization_from_file(self, filepath):$/;"	m	class:T60_Extractor_Mel32_Sec2
+read_normalization_from_file	core/features.py	/^    def read_normalization_from_file(self, filepath):$/;"	m	class:T60_Extractor_Mel32_Sec4
+read_normalization_from_file	core/features.py	/^    def read_normalization_from_file(self, filepath):$/;"	m	class:T60_Extractor_Mel32_Sec4_1D
+read_normalization_from_file	core/features.py	/^    def read_normalization_from_file(self, filepath):$/;"	m	class:T60_Extractor_Mel32_Sec4_2ms
+read_normalization_from_file	core/features.py	/^    def read_normalization_from_file(self, filepath):$/;"	m	class:T60_Extractor_Mel32_Sec4_4ms
+read_normalization_from_file	core/features.py	/^    def read_normalization_from_file(self, filepath):$/;"	m	class:T60_Extractor_Mel32_Sec4_Basic
+read_normalization_from_file	train_subbands_T60_model.py	/^    def read_normalization_from_file(self, filepath):$/;"	m	class:T60_Extractor_Mel32_Sec4_Basic
+run	core/utils.py	/^    def run(self):$/;"	m	class:ApplyEstimatorToSignal
+set_normalization	core/features.py	/^    def set_normalization(self, mean, std):$/;"	m	class:CNN_VAD_Extractor
+set_normalization_from_samples	core/features.py	/^    def set_normalization_from_samples(self, X):$/;"	m	class:MelSpectrogramExtractor
+set_normalization_from_samples	core/features.py	/^    def set_normalization_from_samples(self, X):$/;"	m	class:T60_ERB_Extractor
+set_normalization_from_samples	core/features.py	/^    def set_normalization_from_samples(self, X):$/;"	m	class:T60_Extractor_Mel32_Sec1
+set_normalization_from_samples	core/features.py	/^    def set_normalization_from_samples(self, X):$/;"	m	class:T60_Extractor_Mel32_Sec2
+set_normalization_from_samples	core/features.py	/^    def set_normalization_from_samples(self, X):$/;"	m	class:T60_Extractor_Mel32_Sec4
+set_normalization_from_samples	core/features.py	/^    def set_normalization_from_samples(self, X):$/;"	m	class:T60_Extractor_Mel32_Sec4_1D
+set_normalization_from_samples	core/features.py	/^    def set_normalization_from_samples(self, X):$/;"	m	class:T60_Extractor_Mel32_Sec4_2ms
+set_normalization_from_samples	core/features.py	/^    def set_normalization_from_samples(self, X):$/;"	m	class:T60_Extractor_Mel32_Sec4_4ms
+set_normalization_from_samples	core/features.py	/^    def set_normalization_from_samples(self, X):$/;"	m	class:T60_Extractor_Mel32_Sec4_Basic
+set_normalization_from_samples	core/features.py	/^    def set_normalization_from_samples(self, X):$/;"	m	class:TimeDomainExtractor
+set_normalization_from_samples	train_subbands_T60_model.py	/^    def set_normalization_from_samples(self, X):$/;"	m	class:T60_Extractor_Mel32_Sec4_Basic
+sf	core/utils.py	/^import soundfile as sf$/;"	i
+sf	va_data_generators.py	/^import soundfile as sf$/;"	i
+shutil	core/utils.py	/^import shutil$/;"	i
+shutil	train_subbands_T60_model_pre-feature.py	/^import shutil$/;"	i
+sp	va_data_generators.py	/^import scipy as sp$/;"	i
+split_each_list	core/utils.py	/^def split_each_list(list_list):$/;"	f
+split_list	core/utils.py	/^def split_list(my_list, split=.8):$/;"	f
+time	core/utils.py	/^import time$/;"	i
+va_data_generators	test_subbands_T60_model_pre-feature.py	/^import va_data_generators$/;"	i
+va_data_generators	train_subbands_T60_model.py	/^import va_data_generators$/;"	i
+va_data_generators	train_subbands_T60_model_pre-feature.py	/^import va_data_generators$/;"	i
+va_features	train_subbands_T60_model.py	/^import core.features as va_features$/;"	i
+va_features	va_data_generators.py	/^import core.features as va_features$/;"	i
+va_filterbank	core/features.py	/^from . import filterbank as va_filterbank$/;"	i
+va_utils	train_subbands_T60_model.py	/^import core.utils as va_utils$/;"	i
+va_utils	train_subbands_T60_model_pre-feature.py	/^import core.utils as va_utils$/;"	i
+va_utils	va_data_generators.py	/^import core.utils as va_utils$/;"	i
+write_normalization_to_file	core/features.py	/^    def write_normalization_to_file(self, filepath):$/;"	m	class:CNN_VAD_Extractor
+write_normalization_to_file	core/features.py	/^    def write_normalization_to_file(self, filepath):$/;"	m	class:MelSpectrogramExtractor
+write_normalization_to_file	core/features.py	/^    def write_normalization_to_file(self, filepath):$/;"	m	class:T60_ERB_Extractor
+write_normalization_to_file	core/features.py	/^    def write_normalization_to_file(self, filepath):$/;"	m	class:T60_Extractor_Mel32_Sec1
+write_normalization_to_file	core/features.py	/^    def write_normalization_to_file(self, filepath):$/;"	m	class:T60_Extractor_Mel32_Sec2
+write_normalization_to_file	core/features.py	/^    def write_normalization_to_file(self, filepath):$/;"	m	class:T60_Extractor_Mel32_Sec4
+write_normalization_to_file	core/features.py	/^    def write_normalization_to_file(self, filepath):$/;"	m	class:T60_Extractor_Mel32_Sec4_1D
+write_normalization_to_file	core/features.py	/^    def write_normalization_to_file(self, filepath):$/;"	m	class:T60_Extractor_Mel32_Sec4_2ms
+write_normalization_to_file	core/features.py	/^    def write_normalization_to_file(self, filepath):$/;"	m	class:T60_Extractor_Mel32_Sec4_4ms
+write_normalization_to_file	core/features.py	/^    def write_normalization_to_file(self, filepath):$/;"	m	class:T60_Extractor_Mel32_Sec4_Basic
+write_normalization_to_file	core/features.py	/^    def write_normalization_to_file(self, filepath):$/;"	m	class:TimeDomainExtractor
+write_normalization_to_file	train_subbands_T60_model.py	/^    def write_normalization_to_file(self, filepath):$/;"	m	class:T60_Extractor_Mel32_Sec4_Basic
+zipdir	core/utils.py	/^def zipdir(path, ziph_name):$/;"	f
+zipfile	core/utils.py	/^import zipfile$/;"	i
