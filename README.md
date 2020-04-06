@@ -1,6 +1,6 @@
 # Deep Acoustic Repo
 
-This repo contains python code for our TVCG paper ["Scene-Aware Audio Rendering via Deep Acoustic Analysis"](https://arxiv.org/abs/1911.06245). We include the training and testing code for reverberation (T60) and equalization (EQ) analysis.
+This repo contains python code for our TVCG paper ["Scene-Aware Audio Rendering via Deep Acoustic Analysis"](https://arxiv.org/abs/1911.06245). We include the training and testing code for reverberation (T60) and equalization (EQ) analysis. The conference talk at IEEE VR 2020 is [here](https://www.youtube.com/embed/3OhO2tBYyIs?start=1116).
 
 
 ## Preparation
